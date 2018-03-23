@@ -1,0 +1,147 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-03-19T20:43:34.636Z",
+    "end": "2018-03-19T20:43:53.819Z",
+    "duration": 19183,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "51adf8b5-bcbc-4437-90a1-aee95b646675",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "0c0507b7-eeda-4ce1-98ac-1d2d2b18510b",
+        "title": "library app scenarios",
+        "fullFile": "/Users/leta/gateway-instagram/library09.js",
+        "file": "/library09.js",
+        "beforeHooks": [
+          {
+            "title": "\"before each\" hook",
+            "fullTitle": "library app scenarios \"before each\" hook",
+            "timedOut": false,
+            "duration": 1,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "//fresh browser for each test to test everything individually\ndriver = new webdriver.Builder().forBrowser('chrome').build();\ndriver.get('http://library-app.firebaseapp.com');",
+            "err": {},
+            "isRoot": false,
+            "uuid": "9a9791ce-a62a-4f57-a9fb-f34b909a80db",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after each\" hook",
+            "fullTitle": "library app scenarios \"after each\" hook",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "driver.quit();",
+            "err": {},
+            "isRoot": false,
+            "uuid": "456a81e3-f0ff-44e0-8ca0-3e6a939fc9ff",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "changes button opacity upon email being filled out",
+            "fullTitle": "library app scenarios changes button opacity upon email being filled out",
+            "timedOut": false,
+            "duration": 10546,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "var submitBtn = driver.findElement(By.css('.btn-lg'));\ndriver.findElement(By.css('input')).sendKeys('user@email.com');\n//has to return a T/F boolean\ndriver.wait(function(){\n\treturn submitBtn.getCssValue('opacity').then(function(result){\n\t\treturn result == 1; //truthy not strict t/f could be result === '1'\n\t})\n}, 5000);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "7cd6e5e4-3929-4e3d-ad4f-3ea67a63754f",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "works with mocha",
+            "fullTitle": "library app scenarios works with mocha",
+            "timedOut": false,
+            "duration": 3614,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "var submitBtn = driver.findElement(By.css('.btn-lg'));\ndriver.findElement(By.css('input')).sendKeys('user@email.com');\nsubmitBtn.click();\ndriver.wait(until.elementLocated(By.css('.alert-success')), 5000).getText().then(function(txt){\n\tconsole.log('alert success text is ' + txt);\n});",
+            "err": {},
+            "isRoot": false,
+            "uuid": "1ed90793-2703-4d27-840f-eac69b808b37",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "works with mocha",
+            "fullTitle": "library app scenarios works with mocha",
+            "timedOut": false,
+            "duration": 4697,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "driver.findElement(By.css('nav')).getText().then(function(txt){\n\tconsole.log(txt);\n});",
+            "err": {},
+            "isRoot": false,
+            "uuid": "97f8fa4b-b195-4b26-bb1d-63e8e4d94c84",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "7cd6e5e4-3929-4e3d-ad4f-3ea67a63754f",
+          "1ed90793-2703-4d27-840f-eac69b808b37",
+          "97f8fa4b-b195-4b26-bb1d-63e8e4d94c84"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 18857,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 50000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}

@@ -1,0 +1,329 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"alert",
+				"alert-success"
+			],
+			[
+				"cli",
+				"clickLink"
+			],
+			[
+				"sponsor",
+				"sponsor_contact_info"
+			],
+			[
+				"people",
+				"people-category"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 149.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/leta/gateway-instagram/library11.js",
+		"/Users/leta/gateway-instagram/library07.js",
+		"/Users/leta/gateway-instagram/integration-test.js",
+		"/Users/leta/gateway-instagram/insta-many.js",
+		"/Users/leta/gateway-instagram/insta_test.js",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/322bfddc-2a66-41b5-b661-27e7d1ece5a5/home/ubuntu/live/wp-content/themes/2017-spark-child-theme/functions.php",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/322bfddc-2a66-41b5-b661-27e7d1ece5a5/home/ubuntu/live/wp-content/themes/2017-spark-child-theme/js/lets_talk_thanks.js",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/322bfddc-2a66-41b5-b661-27e7d1ece5a5/home/ubuntu/live/wp-content/themes/2017-spark-child-theme/header.php",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/322bfddc-2a66-41b5-b661-27e7d1ece5a5/home/ubuntu/live/wp-content/themes/2017-spark-child-theme/js/letstalk.js",
+		"/Users/leta/Desktop/brandwebnew.sql",
+		"/Applications/MAMP/htdocs/bbrand2/wp-content/themes/berkeley_brand_2.0.2/options.php",
+		"/Applications/MAMP/htdocs/bbrand2/wp-content/plugins/ucbrand-component_infographic/ucbrand-component_infographic.php",
+		"/Applications/MAMP/htdocs/bbrand2/wp-content/themes/berkeley_brand/options.php",
+		"/Volumes/departmental/Web/WPEngine sites/brand/wp-content/plugins/ucbbrand-component_quote/ucbbrand-component_quote.php",
+		"/Applications/MAMP/htdocs/bbrand2/wp-content/plugins/ucbbrand-component_quote/ucbbrand-component_quote.php",
+		"/Applications/MAMP/htdocs/bbrand2/wp-content/themes/berkeley_brand/functions.php",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/fz3temp-2/pb-sandwich.php",
+		"/Applications/MAMP/htdocs/vanillaWordpress/wp-config.php",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/fz3temp-2/ucbbrand-component_thumblist.php",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/fz3temp-2/component-thumb-list.php",
+		"/Users/leta/Desktop/api.txt",
+		"/Users/leta/Documents/gatewaykeys/leta_work.pub",
+		"/Users/leta/Documents/berkeley_brand/lib/plugins/ucbbrand-component_twitterfeed/ucbbrand-component_twitterfeed.php",
+		"/Users/leta/Downloads/berkeley_brand_wp_content_122217/themes/berkeley_brand/css/components.css",
+		"/Volumes/departmental-1/Web/AWS/Dev/smytes/expressionengine/config/database.php",
+		"/Users/leta/Desktop/log2.txt",
+		"/Users/leta/Desktop/log1.txt",
+		"/Users/leta/Downloads/berkeley_brand_wp_content_08292017/plugins/ucbbrand-component_photo/ucbbrand-component_photo.php",
+		"/Users/leta/Documents/uWebDCoC.txt",
+		"/Users/leta/Downloads/newscenter_nginx_logs-2017-11-06_18-33-21.txt",
+		"/Users/leta/Documents/music/final.php",
+		"/Users/leta/Documents/music/graduate.php",
+		"/Users/leta/Downloads/newscenter_error_logs-2017-10-25_16-44-19.txt",
+		"/Users/leta/Downloads/tonya_gateway.pub",
+		"/Volumes/departmental/Web/WPEngine sites/UCBBrandTest/wp-content/plugins/page-builder-sandwichII/pb-sandwich.php",
+		"/Volumes/departmental/Web/WPEngine sites/berkeleyblog/wp-content/plugins/ucblog-recent_comments/ucb-recent_comments.php",
+		"/Users/leta/Downloads/moviescroll.html",
+		"/Users/leta/Desktop/berkeley_brand_wp_content_07312017/themes/readme.txt",
+		"/Users/leta/Desktop/berkeley_brand_wp_content_07312017/themes/berkeley_brand/css/components.css",
+		"/Volumes/departmental/Web/WPEngine sites/brandwebnew/wp-content/themes/alienship/templates/parts/content-fp-grid.php",
+		"/Volumes/departmental/Web/WPEngine sites/brandwebnew/wp-content/themes/alienship/templates/parts/content-featured.php",
+		"/Volumes/departmental/Web/WPEngine sites/newscenter/wp-content/themes/newscenter-sparkle/includes/templates/post-meta-desc-default.php",
+		"/Volumes/departmental/Web/WPEngine sites/brandwebnew-staging/wp-content/themes/berkeley_brand/templates/parts/menu-top.php",
+		"/Volumes/departmental/Web/WPEngine sites/brandwebnew-staging/wp-content/themes/berkeley_brand/header.php",
+		"/Volumes/departmental/Web/WPEngine sites/brandwebnew-staging/wp-content/themes/alienship/inc/template-tags.php",
+		"/Volumes/departmental/Web/WPEngine sites/brandwebnew-staging/wp-content/themes/berkeley_brand/inc/template-tags.php",
+		"/Users/leta/Desktop/music/privateinstructors.php",
+		"/Users/leta/Desktop/music/graduate.php",
+		"/Volumes/departmental/Web/WPEngine sites/UCBBrandTest/wp-content/themes/berkeley_brand/options.phpOLD",
+		"/Volumes/departmental/Web/WPEngine sites/UCBBrandTest/wp-content/themes/berkeley_brand/options.php",
+		"/Users/leta/Downloads/tabbed 2/settings.php",
+		"/Volumes/departmental/Web/WPEngine sites/bc2-staging/wp-content/themes/berkeley_brand/admin/options-framework.php",
+		"/Volumes/departmental/Web/WPEngine sites/brandwebnew/wp-content/plugins/page-builder-sandwich/pb-sandwich.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/plugins/page-builder-sandwich/pb-sandwich.php",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/c3104c94-99ae-4a54-8fa0-c8b491f0bef0/var/www/geodesicjapan.jp/.htaccessWPBAK",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/c3104c94-99ae-4a54-8fa0-c8b491f0bef0/var/www/geodesicjapan.jp/wp-content/themes/Avada/wpml-config.xml",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/c3104c94-99ae-4a54-8fa0-c8b491f0bef0/var/www/geodesicjapan.jp/wp-content/plugins/polylang/readme.txt",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/c3104c94-99ae-4a54-8fa0-c8b491f0bef0/var/www/geodesicjapan.jp/htaccess.bak",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/c3104c94-99ae-4a54-8fa0-c8b491f0bef0/var/www/geodesicjapan.jp/.htaccess",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/c3104c94-99ae-4a54-8fa0-c8b491f0bef0/var/www/geodesicjapan.jp/wp-content/plugins/polylang/uninstall.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/functions.php",
+		"/Users/leta/Documents/berkeley_brand/lib/plugins/ucbbrand-component_facebook_feed/ucbbrand-component_facebook_feed.php",
+		"/Users/leta/Downloads/berkeley_brand_wp_content_05112017 2/themes/berkeley_brand/css/typography.css",
+		"/Users/leta/Documents/berkeley_brand/css/typography.css",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/322bfddc-2a66-41b5-b661-27e7d1ece5a5/home/ubuntu/live/wp-content/themes/2017-spark-child-theme/css/custom.css",
+		"/Users/leta/Downloads/g8GU+W22.rss",
+		"/Users/leta/Desktop/page-builder-sandwich/pb-sandwich.php",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/322bfddc-2a66-41b5-b661-27e7d1ece5a5/home/ubuntu/www/clients/sparkpr/dev03302016/_content/05-about/02-leadership/01.alan-soucy.md",
+		"/Users/leta/Desktop/TGM-Plugin-Activation-2.6.1 3/example.php",
+		"/Volumes/departmental/Web/WPEngine sites/brandwebnew/wp-content/plugins/ucbbrand-component_list/ucbbrand-component_list.php",
+		"/private/var/folders/fv/byh2ksj571zfzzzlx5_zxk8dvdgt0_/T/322bfddc-2a66-41b5-b661-27e7d1ece5a5/home/ubuntu/live/wp-content/plugins/simple-share-buttons-adder/inc/ssba_admin_bits.php",
+		"/Users/leta/Downloads/TGM-Plugin-Activation-2.6.1/example.php",
+		"/Users/leta/Desktop/functionsReVamp.php",
+		"/Users/leta/Desktop/test.php",
+		"/Users/leta/Desktop/emily.html",
+		"/Volumes/departmental/Web/WPEngine sites/newscenter/wp-content/plugins/ucbnews-360image/ucbnews-360image.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/parts/content-event.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/parts/content-hero-components.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/parts/content-search.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/parts/content.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/parts/menu-main.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/parts/menu-top.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/page-hero-band-web-founders-rock.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/page-hero-band-web-medalist.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/page-hero-band-web-soybean.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/page-hero-band-wellman-tile.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/page-hero-text-box.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/page-hero-video-split.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/page-hero.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/widgets/widget-login-form.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/widgets/widget-nav-stacked-pills-menu.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/wp_bootstrap_navwalker.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/tweaks.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/template-tags.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/scripts.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/sidebars.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/stylesheets.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/header-image.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/customizer.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/cleanup.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/inc/breadcrumb-trail.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/admin/includes/class-options-framework.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/admin/includes/class-options-framework-admin.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/admin/includes/class-options-media-uploader.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/index.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/search.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/single.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/header-hero-video-split.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/header-hero.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/header.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/header-hero-text-box.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/header-hero-band-wellman-tile.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/header-hero-band-web-soybean.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/header-hero-band-web-medalist.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/header-hero-band-web-founders-rock.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/header-events.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/footer.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/class-tgm-plugin-activation.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/category.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/archive-event.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/404.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/parts/content-link.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/templates/parts/content-aside.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/searchform.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/searchform-wordpress.php",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/wp-content/themes/berkeley_brand/options.php",
+		"/Users/leta/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/untitled.json",
+		"/Volumes/departmental/Web/WPEngine sites/vanillaBrandTemplate/sftp-config.json"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 168.0
+	},
+	"pinned_build_system": "",
+	"project": "library11.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
